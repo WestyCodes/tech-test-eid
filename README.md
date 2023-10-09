@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Eidgensi's Dummy Product Tech Test
 
-## Getting Started
+1. Create a new nextjs project.
 
-First, run the development server:
+2. Using [Dummy API](https://dummyjson.com/docs/products), fetch products and render them on the home page.
+   Each product should be a card with a title, description, image and a link to its own page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. Create dynamic pages for each product.
+   The page should fetch data only for that product using the same API
+   It should render the same card as on the home page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can style this in any way using your own preferred method.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   All products on home page.
+-   Dynamic Pages for individual products
 
-## Learn More
+## Stack
 
-To learn more about Next.js, take a look at the following resources:
+-   NextJS
+-   TailwindCSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What I would have liked to add with extra time
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Aesthetics
 
-## Deploy on Vercel
+Minimal aesthetics in the alotted time - would have done a better job making it more visually pleasing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Environmental Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+No real Environmental variables needed, but for a private API I would have used a .env to keep the important secrets secret!
+
+## Experience
+
+This was made in less than 3 hours - and its my first time making a NextJS app, especially with NextJS 13 recently coming out, finding relevant information proved slightly more difficult, but I am still happy with the results.
+
+## DEMO
+
+A quick link to a deployment of the website: [Dummy Products](https://tech-test-eid.vercel.app/)
